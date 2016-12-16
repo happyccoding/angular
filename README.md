@@ -1,3 +1,3 @@
 ## Angular Study 
 
-[Demo] (https://happyccoding.github.io/angular/) 
+[Lynda Demo] (https://happyccoding.github.io/angular/lynda/index.html) 
