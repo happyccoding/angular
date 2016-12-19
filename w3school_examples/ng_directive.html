@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+
+
+<div ng-app="myApp">
+<div w3-test-directive></div>
+<w3-test-directive></w3-test-directive>
+
+
+<my-test-directive></my-test-directive>
+</div>
+<script>
+var app = angular.module("myApp", []);
+app.directive("w3TestDirective", function() {
+    return {
+        template : "I was made in a directive constructor!"
+    };
+});
+app.directive("myTestDirective", function() {
+    return {
+        template : "<h1>myTestDirective</h1>"
+    };
+});
+
+</script>
+
+</body>
+</html>

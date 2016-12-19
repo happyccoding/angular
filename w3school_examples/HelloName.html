@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+<pre>
+AngularJS starts automatically when the web page has loaded. 
+
+The ng-app directive tells AngularJS that the <div> element is the "owner" of an AngularJS application.
+
+The ng-model directive binds the value of the input field to the application variable name.
+
+The ng-bind directive binds the innerHTML of the <p> element to the application variable name.
+</pre>
+<div ng-app="">
+  <p>Name : <input type="text" ng-model="name"></p>
+  <h1>Hello {{name}}</h1>
+</div>
+
+</body>
+</html>
